@@ -127,5 +127,3 @@ The report includes:
 Damar Bayu
 ```
 
-Explanation:
-- Runs login automation only.
