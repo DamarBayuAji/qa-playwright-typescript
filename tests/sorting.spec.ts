@@ -1,6 +1,6 @@
 import {  test, expect } from '@playwright/test';
-import { LoginPage } from '../../pages/LoginPage';
-import { testData } from '../../utils/testData';
+import { LoginPage } from '../pages/LoginPage';
+import { testData } from '../utils/testData';
 
 test('Verify sorting high to low', async ({ page }) => {
     const loginPage = new LoginPage(page);

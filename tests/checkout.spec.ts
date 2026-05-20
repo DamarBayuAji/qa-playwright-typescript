@@ -1,9 +1,9 @@
 import {  test  } from '@playwright/test';
-import { LoginPage } from '../../pages/LoginPage';
-import { testData } from '../../utils/testData';
-import { InventoryPage } from '../../pages/InventoryPage';
-import { CartPage } from '../../pages/CartPage';
-import { CheckoutPage } from '../../pages/CheckoutPage';
+import { LoginPage } from '../pages/LoginPage';
+import { testData } from '../utils/testData';
+import { InventoryPage } from '../pages/InventoryPage';
+import { CartPage } from '../pages/CartPage';
+import { CheckoutPage } from '../pages/CheckoutPage';
 
 
 test('Complete checkout flow', async ({ page }) => {

@@ -1,6 +1,6 @@
 import {  test  } from '@playwright/test';
-import { LoginPage } from '../../pages/LoginPage';
-import { testData } from '../../utils/testData';
+import { LoginPage } from '../pages/LoginPage';
+import { testData } from '../utils/testData';
 
 test('Login with valid credential', async ({ page }) => {
     const loginPage = new LoginPage(page);
