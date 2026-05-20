@@ -33,7 +33,7 @@ Explanation:
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+git clone (https://github.com/DamarBayuAji/qa-playwright-typescript.git)
 ```
 
 Explanation:
